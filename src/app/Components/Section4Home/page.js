@@ -8,10 +8,10 @@ export default function Section4home() {
             <h1 className="italic font-bold w-12 color-greenie">
                 OUR SELECTION OF SPORTS
             </h1>
-            <div className="mt-180 relative flex flex-col items-center w-[800px] lg:items-left">
-                <div className="flex flex-row absolute gap-5  overflow-auto h-[600px]">
-                    <div className="w-[302px] h-[500px] relative">
-                        <Image src='/golf.png' fill/>
+            <div className="mt-180 relative flex flex-col items-center  lg:items-left">
+                <div className="flex absolute gap-5  overflow-auto h-[600px] ">
+                    <div className="w-[302px] h-[500px]">
+                        <Image src='/golf.png' fill sizes="40vmin 56vmin"/>
                         <h3 className="absolute -bottom-8 text-white mt-4 text-left">GOLF</h3>
                     </div>
                     <div className="w-[302px] h-[500px] relative">
