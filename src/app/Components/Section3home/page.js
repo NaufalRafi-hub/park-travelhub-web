@@ -5,7 +5,7 @@ export default function Section3home() {
   
     return (
         <div className="mt-300">
-            <h1 className="italic font-bold w-12 mb-20">
+            <h1 className="italic font-bold w-[97px] mb-20">
                 WHAT WE OFFER
             </h1>
             <div className="mt-180 flex flex-col justify-center text-center gap-10 md:flex-row">
