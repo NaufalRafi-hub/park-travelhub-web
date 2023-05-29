@@ -128,8 +128,6 @@ export default function Home() {
       <Section6home />
       <SectionFAQ />
       </section>
-      
-      testing
     </main>
   )
 }
