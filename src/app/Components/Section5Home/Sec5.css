@@ -2,13 +2,14 @@
     overflow: hidden;
   }
 .embla__container {
-    display: grid;  
+    /* display: grid;  
     grid-auto-flow: row;  
-    grid-auto-rows: 80%; /* Each slide covers 80% of the viewport */  
+    grid-auto-rows: 80%;  */
+    display: flex;
     /* height: 200px; */
 }
 .embla__slide {
-    /* flex: 0 0 100%; */
+    flex: 0 0 100%;
     min-width: 0;
 }
 .linear-sport {

@@ -2,6 +2,9 @@
 import Image from "next/image";
 import './Sec4.css'
 import { useEffect } from "react";
+import EmblaCarousel from '../EmbraSlider/EmblaCarousel'
+import '../EmbraSlider/embla.css'
+import '../EmbraSlider/sandbox.css'
 
 export default function Section4home() {
 //   const sportImage = {
@@ -53,12 +56,15 @@ export default function Section4home() {
     // window.onmousemove = e => handleOnMove(e);
 
     // window.ontouchmove = e => handleOnMove(e.touches[0]);
+    const OPTIONS = { inViewThreshold: 0, dragFree: true }
+    const SLIDE_COUNT = 5
+    const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
     return (
         <div className="mt-300 bg-grayie w-full block h-[1000px] p-24 ">
             <h1 className="italic font-bold w-[97px] color-greenie">
                 OUR SELECTION OF SPORTS
             </h1>
-            <div className="mt-180 flex flex-col items-center lg:items-left">
+            {/* <div className="mt-180 flex flex-col items-center lg:items-left">
                 <div className="flex absolute gap-5 left-[30%] h-[650px]">
                     <div className="w-[302px] h-[500px] relative">
                         <Image src='/golf.png' width="0"
@@ -98,8 +104,10 @@ export default function Section4home() {
                         <h3 className="font-bold mt-4 text-center">REQUEST CUSTOM TRIP</h3>
                     </div>
                 </div>
-            </div>
-            
+            </div> */}
+            <section className="sandbox__carousel">
+                <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+            </section>
         </div>
     )
 }
