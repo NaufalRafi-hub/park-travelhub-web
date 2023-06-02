@@ -2,24 +2,27 @@
 import Image from 'next/image'
 import './Sec1.css'
 import { motion } from "framer-motion"
+import SliderSec1 from "./slider/index"
 
 export default function Section1home() {
   
     return (
-        <div className="mt-[147px] w-full relative overflow-y-hidden">
-            <div className='absolute top-4 left-6'>
-                        <Image src='/park-s-header.png'
-                        width={0}
-                        height={0}
-                        sizes='100vh'
-                        style={{
-                            width: '400px',
-                            // height: '571px'
-                        }}
-                        />
-                        
-                    </div>
-            <div className="bg-sec1 flex p-24">
+        <div className="mt-[147px] w-full h-[500px] relative overflow-y-hidden">
+            <SliderSec1  />
+            
+            <div className=" absolute top-0 bg-sec1 flex p-24 h-[500px]">
+                <div className='top-4 left-6 z-1 overflow-y-hidden'>
+                    <Image src='/park-s-header.png'
+                    width={0}
+                    height={0}
+                    sizes='100vh'
+                    style={{
+                        width: '400px',
+                        // height: '571px'
+                    }}
+                    />
+                            
+                </div>
                 {/* <motion.div 
                 animate={{
                     scale: [1, 2, 2, 1, 1],
