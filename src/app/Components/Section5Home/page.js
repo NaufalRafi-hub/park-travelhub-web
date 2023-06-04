@@ -8,7 +8,10 @@ export default function Section5home() {
             <h1 className="italic font-bold w-[117px] mb-20">
                 OUR HIGHLIGHTED SPORT TOURISM
             </h1>
-            <SliderSec5 />
+            <div className='mt-180'>
+                <SliderSec5 />
+
+            </div>
             
         </div>
 
