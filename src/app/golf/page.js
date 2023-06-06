@@ -10,7 +10,6 @@ export default function Golf() {
             <Section1home />
             <Section1sports />
             <Section2sports />
-            
         </div>
     )
 }
