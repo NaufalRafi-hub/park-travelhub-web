@@ -14,19 +14,19 @@ export default function SectionFAQ() {
             </h1>
             <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger>Why Us?</AccordionTrigger>
                 <AccordionContent>
                 Yes. It adheres to the WAI-ARIA design pattern.
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger>Can we request a refund?</AccordionTrigger>
                 <AccordionContent>
                 Yes. It adheres to the WAI-ARIA design pattern.
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-                <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                <AccordionTrigger>What will you get?</AccordionTrigger>
                 <AccordionContent>
                 Yes. It adheres to the WAI-ARIA design pattern.
                 </AccordionContent>

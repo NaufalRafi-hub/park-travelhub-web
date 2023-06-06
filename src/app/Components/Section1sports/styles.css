@@ -1,0 +1,13 @@
+.doer {
+    background-image: url('../../../../public/golf-doer.png');
+    background-size: cover;
+    background-position: center;
+}
+.watcher {
+    background-image: url('../../../../public/golf-watcher.png');
+    background-size: cover;
+    background-position: center;
+}
+.linear-sport {
+    background: linear-gradient(90deg, rgba(41, 41, 41, 0.9) 0.03%, rgba(41, 41, 41, 0.081) 73.19%);
+}

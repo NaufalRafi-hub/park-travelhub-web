@@ -1,10 +1,16 @@
+import Section1home from '../Components/Section1home/page'
+import Section1sports from '../Components/Section1sports/page'
+import Section2sports from '../Components/Section2sports/page'
+
+
 export default function Golf() {
   
     return (
-        <div className="mt-300">
-            <h2 className="text-center">
-            PARK TRAVEL HUB Sport is an established and trusted bespoke sports travel company with nearly 25 years’ experience in providing sports packages for individual clients, corporates, concierge and incentive agencies and the England Football Media. We provide tailor-made packages for Formula 1, rugby, tennis, golf, football and countless other sporting events both domestically and worldwide.
-            </h2>
+        <div>
+            <Section1home />
+            <Section1sports />
+            <Section2sports />
+            
         </div>
     )
 }
