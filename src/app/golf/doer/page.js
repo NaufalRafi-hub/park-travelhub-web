@@ -1,11 +1,11 @@
 // import './styles.css'
+import Section1sDet from '../../Components/Section1sDet/page'
+// import Section1sports from '../Components/Section1sports/page'
+// import Section2sports from '../Components/Section2sports/page'
+
 export default function Doer() {
   
     return (
-        <div className='p-24 mt-180'>
-            <h1 className="italic font-bold w-[160px] mb-20 color-grayie">
-                CONFUSED WHICH ONE TO CHOOSE? HERE’S OUR RECOMMENDATION
-            </h1>
-        </div>
+        <Section1sDet />
     )
 }

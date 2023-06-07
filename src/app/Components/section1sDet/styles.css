@@ -1,0 +1,17 @@
+.outline-s {
+    /* letter-spacing: -0.04em; */
+    color: #292929;
+    border: 1px solid rgba(143, 255, 5, 0.22);
+    font-size: 80px;
+    -webkit-text-stroke: 1px rgba(143, 255, 5, 0.22);
+    letter-spacing: -0.08em;
+    line-height: 100.5%;
+    /* text-align: justify; */
+    font-weight: bold;
+    overflow-y: hidden;
+}
+.wrap-1-secsDet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
