@@ -7,11 +7,17 @@ export default [
             {
                 title : 'GOLF SPORT TOURISM',
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
-                imgSlide: dummy,
-                imgSlide2: dummy2,
-                imgSlide3: dummy3,
-                imgDoer: dummy4,
-                imgWatcher: dummy5,
+                imageData: [
+                    {
+                        file: dummy1,
+                    },
+                    {
+                        file: dummy2,
+                    },
+                    {
+                        file: dummy3,
+                    },
+                ],
                 doer: [
                     {
                         title: 'GOLF SPORT TOURISM - DOER',
@@ -217,11 +223,17 @@ export default [
             {
                 title : 'CYCLING SPORT TOURISM',
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
-                imgSlide: dummy,
-                imgSlide2: dummy2,
-                imgSlide3: dummy3,
-                imgDoer: dummy4,
-                imgWatcher: dummy5,
+                imageData: [
+                    {
+                        file: dummy1,
+                    },
+                    {
+                        file: dummy2,
+                    },
+                    {
+                        file: dummy3,
+                    },
+                ],
                 doer: [
                     {
                         title: 'Cycling SPORT TOURISM - DOER',
@@ -322,11 +334,17 @@ export default [
             {
                 title : 'Yoga SPORT TOURISM',
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
-                imgSlide: dummy,
-                imgSlide2: dummy2,
-                imgSlide3: dummy3,
-                imgDoer: dummy4,
-                imgWatcher: dummy5,
+                imageData: [
+                    {
+                        file: dummy1,
+                    },
+                    {
+                        file: dummy2,
+                    },
+                    {
+                        file: dummy3,
+                    },
+                ],
                 doer: [
                     {
                         title: 'Yoga SPORT TOURISM - DOER',
@@ -472,11 +490,17 @@ export default [
             {
                 title : 'tennis SPORT TOURISM',
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
-                imgSlide: dummy,
-                imgSlide2: dummy2,
-                imgSlide3: dummy3,
-                imgDoer: dummy4,
-                imgWatcher: dummy5,
+                imageData: [
+                    {
+                        file: dummy1,
+                    },
+                    {
+                        file: dummy2,
+                    },
+                    {
+                        file: dummy3,
+                    },
+                ],
                 doer: [
                     {
                         title: 'tennis SPORT TOURISM - DOER',
