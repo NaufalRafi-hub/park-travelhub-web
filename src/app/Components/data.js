@@ -1,3 +1,5 @@
+import { m } from "framer-motion";
+
 export default [
     {
         option: 'golf',
@@ -27,6 +29,10 @@ export default [
                                             {
                                                 title: 'Jakarta 4 Days 3 Night Golf Trip - Doer',
                                                 sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
+                                                age: '10-60 Years Old',
+                                                method: 'Fully guided, including tour assistance and tour guide',
+                                                type: 'Group',
+                                                duration: '4 Days',
                                                 included: [
                                                     {
                                                         title: 'Accomodation',
@@ -338,6 +344,10 @@ export default [
                                             {
                                                 title: 'Bogor 3 Days 2 Night Yoga Trip - Doer',
                                                 sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
+                                                age: '10-60 Years Old',
+                                                method: 'Fully guided, including tour assistance and tour guide',
+                                                type: 'Group',
+                                                duration: '4 Days',
                                                 included: [
                                                     {
                                                         title: 'Accomodation',
