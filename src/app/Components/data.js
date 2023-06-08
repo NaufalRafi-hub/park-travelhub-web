@@ -22,7 +22,58 @@ export default [
                                     {
                                         img: cover,
                                         title: 'Jakarta Golf 4 Days Trip',
-                                        type: 'Doer'
+                                        type: 'Doer',
+                                        data: [
+                                            {
+                                                title: 'Jakarta 4 Days 3 Night Golf Trip - Doer',
+                                                sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
+                                                included: [
+                                                    {
+                                                        title: 'Accomodation',
+                                                        sub: '5 star hotel (3 Nights)'
+                                                    },
+                                                    {
+                                                        title: 'Transportation',
+                                                        sub: 'Elf Bus'
+                                                    },
+                                                    {
+                                                        title: 'Meals',
+                                                        sub: '4 Breakfast, 3 Lunch, 3 Dinner'
+                                                    },
+                                                    {
+                                                        title: 'Guide',
+                                                        sub: 'Tour assistant, Tour Guide, Yoga Coach'
+                                                    },
+                                                    {
+                                                        title: 'Activities',
+                                                        sub: 'Driving'
+                                                    },
+                                                ],
+                                                excluded: [
+                                                    {
+                                                        title: 'Insurance',
+                                                        sub: 'Travel Insurance, Health Insurance'
+                                                    }
+                                                ],
+                                                itin: [
+                                                    {
+                                                        title: 'Day 1',
+                                                        sub: 'test'
+                                                    }
+                                                ],
+                                                highlights: [
+                                                    {
+                                                        file: dummyHighlight1
+                                                    },
+                                                    {
+                                                        file: dummyHighlight2
+                                                    },
+                                                    {
+                                                        file: dummyHighlight3
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     },
                                     {
                                         img: cover,
@@ -282,7 +333,58 @@ export default [
                                     {
                                         img: cover,
                                         title: 'Bogor Yoga 3 Days Trip',
-                                        type: 'Doer'
+                                        type: 'Doer',
+                                        data: [
+                                            {
+                                                title: 'Bogor 3 Days 2 Night Yoga Trip - Doer',
+                                                sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
+                                                included: [
+                                                    {
+                                                        title: 'Accomodation',
+                                                        sub: '5 star hotel (3 Nights)'
+                                                    },
+                                                    {
+                                                        title: 'Transportation',
+                                                        sub: 'Elf Bus'
+                                                    },
+                                                    {
+                                                        title: 'Meals',
+                                                        sub: '4 Breakfast, 3 Lunch, 3 Dinner'
+                                                    },
+                                                    {
+                                                        title: 'Guide',
+                                                        sub: 'Tour assistant, Tour Guide, Yoga Coach'
+                                                    },
+                                                    {
+                                                        title: 'Activities',
+                                                        sub: 'Yoga'
+                                                    },
+                                                ],
+                                                excluded: [
+                                                    {
+                                                        title: 'Insurance',
+                                                        sub: 'Travel Insurance, Health Insurance'
+                                                    }
+                                                ],
+                                                itin: [
+                                                    {
+                                                        title: 'Day 1',
+                                                        sub: 'test'
+                                                    }
+                                                ],
+                                                highlights: [
+                                                    {
+                                                        file: dummyHighlight1
+                                                    },
+                                                    {
+                                                        file: dummyHighlight2
+                                                    },
+                                                    {
+                                                        file: dummyHighlight3
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     },
                                     {
                                         img: cover,
