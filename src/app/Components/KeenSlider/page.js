@@ -18,7 +18,7 @@ export default () => {
 
   return (
     <div ref={sliderRef} className="keen-slider mt-180">
-      <div className="keen-slider__slide number-slide1" style={{maxWidth: 250, minWidth: 250}}>
+      <div className="keen-slider__slide sport-slide1" style={{maxWidth: 250, minWidth: 250}}>
       <Link href="/golf">
             <div className="w-[302px] h-[500px] relative">
                 <Image src='/golf.png' width="0"
@@ -29,7 +29,7 @@ export default () => {
             </div>
       </Link>
       </div>
-      <div className="keen-slider__slide number-slide2" style={{maxWidth: 250, minWidth: 250}}>
+      <div className="keen-slider__slide sport-slide2" style={{maxWidth: 250, minWidth: 250}}>
         <Link href="/cycling">
             <div className="w-[302px] h-[500px] relative">
                 <Image src='/biking.png' 
@@ -41,7 +41,7 @@ export default () => {
             </div>
           </Link>
       </div>
-      <div className="keen-slider__slide number-slide3" style={{maxWidth: 250, minWidth: 250}}>
+      <div className="keen-slider__slide sport-slide3" style={{maxWidth: 250, minWidth: 250}}>
         <Link href="/yoga"> 
             <div className="w-[302px] h-[500px] relative">
                 <Image src='/yoga.png' width="0"
@@ -52,7 +52,7 @@ export default () => {
             </div>
           </Link>
       </div>
-      <div className="keen-slider__slide number-slide4" style={{maxWidth: 250, minWidth: 250}}>
+      <div className="keen-slider__slide sport-slide4" style={{maxWidth: 250, minWidth: 250}}>
         <Link href="/tennis">
             <div className="w-[302px] h-[500px] relative">
                 <Image src='/tennis.png' 
@@ -64,7 +64,7 @@ export default () => {
             </div>
           </Link>
       </div>
-      <div className="keen-slider__slide number-slide5" style={{maxWidth: 250, minWidth: 250}}>
+      <div className="keen-slider__slide sport-slide5" style={{maxWidth: 250, minWidth: 250}}>
         <Link href="/golf">
             <div className="bg-greenie w-[250px] h-[500px] flex flex-col justify-center items-center">
                 <Image src='/add_icon.png' width={100} height={0}

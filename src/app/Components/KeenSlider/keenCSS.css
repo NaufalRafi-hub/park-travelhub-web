@@ -1,7 +1,7 @@
 
   
-  [class^="number-slide"],
-  [class*=" number-slide"] {
+  [class^="sport-slide"],
+  [class*=" sport-slide"] {
     background: grey;
     display: flex;
     align-items: center;
@@ -15,11 +15,11 @@
     /* width: 200px !important; */
   }
   
-  .number-slide1, .number-slide2, .number-slide3, .number-slide4 {
+  .sport-slide1, .sport-slide2, .sport-slide3, .sport-slide4 {
     background: #8FFF05;
     /* width: 200px !important; */
   }
   
-  .number-slide5 {
+  .sport-slide5 {
     background-color: #292929;
   }
