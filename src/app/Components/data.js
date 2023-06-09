@@ -1,21 +1,55 @@
-import { m } from "framer-motion";
+import golfSport from "../../../public/golf.png"
+import yogaSport from "../../../public/tennis.png"
+import bikingSport from "../../../public/yoga.png"
+import tennisSport from "../../../public/biking.png"
+import golfSlider1 from "../../../public/golfSliderJPG.jpg"
+import golfSlider2 from "../../../public/golfSlider2JPG.jpg"
+import golfSlider3 from "../../../public/golfSlider3JPG.jpeg"
+import coverPik from "../../../public/coverPIKJPG.jpg"
+import coverJktBgr from "../../../public/coverBGRJPG.jpg"
+import coverBgr from "../../../public/coverBogorJPG.jpg"
+import coverJakarta from "../../../public/coverPIKJPG.jpg"
+import golfDoer from "../../../public/golf-doer.png"
+import coverSby from "../../../public/coverSby.jpg"
+import coverBali from "../../../public/coverBali.jpg"
+import coverBali2 from "../../../public/coverBali2.jpg"
+import coverBali3 from "../../../public/coverBali3.jpg"
+import coverBintan from "../../../public/coverBintan.jpg"
+import coverCyclingBali from "../../../public/coverCycBali.jpg"
+import coverCyclingBali2 from "../../../public/coverCycBali2.jpg"
+import coverCyclingBali3 from "../../../public/coverCycBali.jpg"
+import coverCyclingBogor from "../../../public/coverCycBogor.jpg"
+import coverCyclingJakarta from "../../../public/coverCycJakarta.jpg"
+import coverCyclingJogja from "../../../public/coverCycJog.jpg"
+import coverCyclingMalang from "../../../public/coverCycMalang1.jpg"
+import coverCyclingMalang2 from "../../../public/coverCycMalang2.jpg"
+import cyclingSlider1 from "../../../public/cycling-s1.jpg"
+import cyclingSlider2 from "../../../public/cyclingSlider2.jpg"
+import cyclingSlider3 from "../../../public/cyclingSlider3.webp"
+
+
+
+
+
+
 
 export default [
     {
         option: 'golf',
+        img: golfSport,
         data: [
             {
                 title : 'GOLF SPORT TOURISM',
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                 imageData: [
                     {
-                        file: dummy1,
+                        file: golfSlider1,
                     },
                     {
-                        file: dummy2,
+                        file: golfSlider2,
                     },
                     {
-                        file: dummy3,
+                        file: golfSlider3,
                     },
                 ],
                 doer: [
@@ -28,8 +62,8 @@ export default [
                                 place: 'Jakarta-Bogor',
                                 data: [
                                     {
-                                        img: cover,
-                                        title: 'Jakarta Golf 4 Days Trip',
+                                        img: coverPik,
+                                        title: 'Jakarta-PIK Golf 4 Days Trip',
                                         type: 'Doer',
                                         data: [
                                             {
@@ -75,30 +109,30 @@ export default [
                                                 ],
                                                 highlights: [
                                                     {
-                                                        file: dummyHighlight1
+                                                        file: coverJakarta
                                                     },
                                                     {
-                                                        file: dummyHighlight2
+                                                        file: coverPik
                                                     },
                                                     {
-                                                        file: dummyHighlight3
+                                                        file: coverJakarta
                                                     }
                                                 ]
                                             }
                                         ]
                                     },
                                     {
-                                        img: cover,
+                                        img: coverJktBgr,
                                         title: 'Jakarta-Bogor Golf 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
+                                        img: coverJakarta,
                                         title: 'Jakarta Golf 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
+                                        img: coverBgr,
                                         title: 'Bogor Golf 4 Days Trip',
                                         type: 'Doer'
                                     },
@@ -109,17 +143,17 @@ export default [
                                 place: 'Surabaya',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverSby,
                                         title: 'Surabaya Golf 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
+                                        img: coverSby,
                                         title: 'Surabaya Golf 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
+                                        img: coverSby,
                                         title: 'Surabaya Golf 4 Days Trip',
                                         type: 'Doer'
                                     },
@@ -129,22 +163,17 @@ export default [
                                 place: 'Bali',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverBali,
                                         title: 'Bali Golf 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
+                                        img: coverBali2,
                                         title: 'Bali Golf 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
-                                        title: 'Bali Golf 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
+                                        img: coverBali3,
                                         title: 'Bali Golf 4 Days Trip',
                                         type: 'Doer'
                                     },
@@ -154,7 +183,7 @@ export default [
                                 place: 'Bintan',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverBintan,
                                         title: 'Bintan Golf 4 Days Trip',
                                         type: 'Doer'
                                     },
@@ -171,15 +200,15 @@ export default [
                         img: golfWatcher,
                         city: [
                             {
-                                place: 'Jakarta',
+                                place: 'Jakarta - Bogor',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverJakarta,
                                         title: 'Jakarta Golf International Tournament Golf 4 Days Trip',
                                         type: 'Watcher'
                                     },
                                     {
-                                        img: cover,
+                                        img: coverJktBgr,
                                         title: 'Jakarta-Bogor Tournament Golf 4 Days Trip',
                                         type: 'Watcher'
                                     },
@@ -190,12 +219,12 @@ export default [
                                 place: 'Bali',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverBali,
                                         title: 'Bali Golf Tourney 4 Days Trip',
                                         type: 'Watcher'
                                     },
                                     {
-                                        img: cover,
+                                        img: coverBali2,
                                         title: 'Bali Golf Indonesia Pro League 4 Days Trip',
                                         type: 'Watcher'
                                     },
@@ -205,7 +234,7 @@ export default [
                                 place: 'Bintan',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverBintan,
                                         title: 'Bintan League Golf 4 Days Trip',
                                         type: 'Watcher'
                                     },
@@ -219,48 +248,39 @@ export default [
     },
     {
         option: 'cycling',
+        img: bikingSport,
         data: [
             {
                 title : 'CYCLING SPORT TOURISM',
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                 imageData: [
                     {
-                        file: dummy1,
+                        file: cyclingSlider1,
                     },
                     {
-                        file: dummy2,
+                        file: cyclingSlider2,
                     },
                     {
-                        file: dummy3,
+                        file: cyclingSlider3,
                     },
                 ],
                 doer: [
                     {
                         title: 'Cycling SPORT TOURISM - DOER',
                         sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
-                        img: cyclingDoer,
+                        img: cyclingSlider2,
                         city: [
                             {
                                 place: 'Jakarta-Bogor',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverCyclingJakarta,
                                         title: 'Jakarta Cycling 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
+                                        img: coverCyclingBogor,
                                         title: 'Jakarta-Bogor Cycling 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Bogor Cycling 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Bogor Cycling 4 Days Trip',
                                         type: 'Doer'
                                     },
                                 ]
@@ -270,17 +290,12 @@ export default [
                                 place: 'Malang',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverCyclingMalang,
                                         title: 'Malang Cycling 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
-                                        title: 'Malang Cycling 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
+                                        img: coverCyclingMalang2,
                                         title: 'Malang Cycling 4 Days Trip',
                                         type: 'Doer'
                                     },
@@ -290,22 +305,17 @@ export default [
                                 place: 'Bali',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverCyclingBali,
                                         title: 'Bali Cycling 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
+                                        img: coverCyclingBali2,
                                         title: 'Bali Cycling 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
-                                        title: 'Bali Cycling 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
+                                        img: coverCyclingBali3,
                                         title: 'Bali Cycling 4 Days Trip',
                                         type: 'Doer'
                                     },
@@ -315,7 +325,7 @@ export default [
                                 place: 'Yogyakarta',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverCyclingJogja,
                                         title: 'Yogyakarta Cycling 4 Days Trip',
                                         type: 'Doer'
                                     },
@@ -330,6 +340,7 @@ export default [
     },
     {
         option: 'yoga',
+        img: yogaSport,
         data: [
             {
                 title : 'Yoga SPORT TOURISM',
@@ -486,6 +497,7 @@ export default [
     },
     {
         option: 'tennis',
+        img: tennisSport,
         data: [
             {
                 title : 'tennis SPORT TOURISM',
