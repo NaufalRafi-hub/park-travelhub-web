@@ -20,9 +20,10 @@ export default () => {
   return (
     <div ref={sliderRef} className="keen-slider mt-180">
       <div className="keen-slider__slide sport-slide1" style={{maxWidth: 250, minWidth: 250}}>
-      <Link href="/golf">
+      <Link href={`/sport/${encodeURIComponent(Data[0].option)}`}>
+
             <div className="w-[302px] h-[500px] relative">
-                <Image src='/golf.png' width="0"
+                <Image src={Data[0].img} width="0"
                     height="0"
                     sizes="100vw"
                     style={{ width: '302px', height: '470px', minWidth: '302px', minHeight: '470px' }} />
@@ -31,9 +32,10 @@ export default () => {
       </Link>
       </div>
       <div className="keen-slider__slide sport-slide2" style={{maxWidth: 250, minWidth: 250}}>
-        <Link href="/cycling">
+      <Link href={`/sport/${encodeURIComponent(Data[1].option)}`}>
+
             <div className="w-[302px] h-[500px] relative">
-                <Image src='/biking.png' 
+                <Image src={Data[1].img}
                     width="0"
                     height="0"
                     sizes="100vw"
@@ -43,9 +45,10 @@ export default () => {
           </Link>
       </div>
       <div className="keen-slider__slide sport-slide3" style={{maxWidth: 250, minWidth: 250}}>
-        <Link href="/yoga"> 
+      <Link href={`/sport/${encodeURIComponent(Data[2].option)}`}>
+
             <div className="w-[302px] h-[500px] relative">
-                <Image src='/yoga.png' width="0"
+                <Image src={Data[2].img} width="0"
                     height="0"
                     sizes="100vw"
                     style={{ width: '302px', height: '470px' }} /> 
@@ -54,10 +57,11 @@ export default () => {
           </Link>
       </div>
       <div className="keen-slider__slide sport-slide4" style={{maxWidth: 250, minWidth: 250}}>
-        <Link href="/tennis">
+      <Link href={`/sport/${encodeURIComponent(Data[3].option)}`}>
+
             <div className="w-[302px] h-[500px] relative">
-                <Image src='/tennis.png' 
-                    width="0"
+                <Image src={Data[3].img}
+                    width="0" 
                     height="0"
                     sizes="100vw"
                     style={{ width: '302px', height: '470px' }} /> 
