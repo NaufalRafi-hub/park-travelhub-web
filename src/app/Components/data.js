@@ -10,6 +10,7 @@ import coverJktBgr from "../../../public/coverBGRJPG.jpg"
 import coverBgr from "../../../public/coverBogorJPG.jpg"
 import coverJakarta from "../../../public/coverPIKJPG.jpg"
 import golfDoer from "../../../public/golf-doer.png"
+import golfWatcher from "../../../public/golf-watcher.png"
 import coverSby from "../../../public/coverSby.jpg"
 import coverBali from "../../../public/coverBali.jpg"
 import coverBali2 from "../../../public/coverBali2.jpg"
@@ -26,6 +27,27 @@ import coverCyclingMalang2 from "../../../public/coverCycMalang2.jpg"
 import cyclingSlider1 from "../../../public/cycling-s1.jpg"
 import cyclingSlider2 from "../../../public/cyclingSlider2.jpg"
 import cyclingSlider3 from "../../../public/cyclingSlider3.webp"
+import tennisSlider1 from "../../../public/tennis-s1.webp"
+import tennisSlider2 from "../../../public/tennisSlider2.webp"
+import tennisSlider3 from "../../../public/tennisSlider3.jpg"
+import coverTennisSing from "../../../public/tennisCover3.jpg"
+import coverTennisUS from "../../../public/tennisCoverUS.jpg"
+import coverTennisDubai from "../../../public/tennisCover2.jpg"
+import coverTennisBali from "../../../public/tennisCoverBali.jpg"
+import coverTennisBali2 from "../../../public/tennisCoverBali2.jpg"
+import coverTennisJKT from "../../../public/tennisCover.jpg"
+import yogaSlider from "../../../public/yogaSlider.jpg"
+import yogaSlider2 from "../../../public/yogaSlider2.webp"
+import yogaSlider3 from "../../../public/yogaSlider3.webp"
+import coverYogaJogja from "../../../public/coverYogaJGY.jpg"
+import coverYogaBali from "../../../public/yogaCoverBali.jpg"
+import coverYogaBali2 from "../../../public/yogaCoverBali2.jpg"
+import coverYogaBali3 from "../../../public/yogaCoverBali3.jpg"
+import coverYogaAus from "../../../public/coverYogaAus.webp"
+import coverYogaBGR from "../../../public/coverYogaBogor.jpg"
+import coverYogaJKT from "../../../public/yogaCoverJKT.jpeg"
+
+
 
 
 
@@ -347,31 +369,31 @@ export default [
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                 imageData: [
                     {
-                        file: dummy1,
+                        file: yogaSlider,
                     },
                     {
-                        file: dummy2,
+                        file: yogaSlider2,
                     },
                     {
-                        file: dummy3,
+                        file: yogaSlider3,
                     },
                 ],
                 doer: [
                     {
                         title: 'Yoga SPORT TOURISM - DOER',
                         sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
-                        img: YogaDoer,
+                        img: yogaSlider,
                         city: [
                             {
                                 place: 'Jakarta-Bogor',
                                 data: [
                                     {
-                                        img: cover,
-                                        title: 'Bogor Yoga 3 Days Trip',
+                                        img: coverYogaJKT,
+                                        title: 'Jakarta Yoga 3 Days Trip',
                                         type: 'Doer',
                                         data: [
                                             {
-                                                title: 'Bogor 3 Days 2 Night Yoga Trip - Doer',
+                                                title: 'Jakarta 3 Days 2 Night Yoga Trip - Doer',
                                                 sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                                                 age: '10-60 Years Old',
                                                 method: 'Fully guided, including tour assistance and tour guide',
@@ -413,42 +435,88 @@ export default [
                                                 ],
                                                 highlights: [
                                                     {
-                                                        file: dummyHighlight1
+                                                        file: coverYogaAus
                                                     },
                                                     {
-                                                        file: dummyHighlight2
+                                                        file: coverYogaJKT
                                                     },
                                                     {
-                                                        file: dummyHighlight3
+                                                        file: coverYogaBali3
                                                     }
                                                 ]
                                             }
                                         ]
                                     },
                                     {
-                                        img: cover,
-                                        title: 'Bogor Yoga 7 Days Trip',
-                                        type: 'Doer'
+                                        img: coverYogaBGR,
+                                        title: 'Jakarta Yoga 3 Days Trip',
+                                        type: 'Doer',
+                                        data: [
+                                            {
+                                                title: 'Jakarta 3 Days 2 Night Yoga Trip - Doer',
+                                                sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
+                                                age: '10-60 Years Old',
+                                                method: 'Fully guided, including tour assistance and tour guide',
+                                                type: 'Group',
+                                                duration: '4 Days',
+                                                included: [
+                                                    {
+                                                        title: 'Accomodation',
+                                                        sub: '5 star hotel (3 Nights)'
+                                                    },
+                                                    {
+                                                        title: 'Transportation',
+                                                        sub: 'Elf Bus'
+                                                    },
+                                                    {
+                                                        title: 'Meals',
+                                                        sub: '4 Breakfast, 3 Lunch, 3 Dinner'
+                                                    },
+                                                    {
+                                                        title: 'Guide',
+                                                        sub: 'Tour assistant, Tour Guide, Yoga Coach'
+                                                    },
+                                                    {
+                                                        title: 'Activities',
+                                                        sub: 'Yoga'
+                                                    },
+                                                ],
+                                                excluded: [
+                                                    {
+                                                        title: 'Insurance',
+                                                        sub: 'Travel Insurance, Health Insurance'
+                                                    }
+                                                ],
+                                                itin: [
+                                                    {
+                                                        title: 'Day 1',
+                                                        sub: 'test'
+                                                    }
+                                                ],
+                                                highlights: [
+                                                    {
+                                                        file: coverYogaBGR
+                                                    },
+                                                    {
+                                                        file: coverYogaJKT
+                                                    },
+                                                    {
+                                                        file: coverYogaBali
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     },
-                                    {
-                                        img: cover,
-                                        title: 'Jakarta Yoga 4 Days Trip',
-                                        type: 'Doer'
-                                    },
+                                    
                                 ]
                                 
                             }, 
                             {
-                                place: 'Malang',
+                                place: 'Australia',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverYogaAus,
                                         title: 'Malang Yoga 7 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Malang Yoga 5 Days Trip',
                                         type: 'Doer'
                                     },
                                 ]
@@ -457,23 +525,18 @@ export default [
                                 place: 'Bali',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverYogaBali,
                                         title: 'Bali Yoga 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
+                                        img: coverYogaBali2,
                                         title: 'Bali Yoga 5 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
+                                        img: coverYogaBali3,
                                         title: 'Bali Yoga 7 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Bali Yoga 3 Days Trip',
                                         type: 'Doer'
                                     },
                                 ]
@@ -482,7 +545,7 @@ export default [
                                 place: 'Yogyakarta',
                                 data: [
                                     {
-                                        img: cover,
+                                        img: coverYogaJogja,
                                         title: 'Yogyakarta Yoga 2 Days Trip',
                                         type: 'Doer'
                                     },
@@ -504,63 +567,38 @@ export default [
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                 imageData: [
                     {
-                        file: dummy1,
+                        file: tennisSlider1,
                     },
                     {
-                        file: dummy2,
+                        file: tennisSlider2,
                     },
                     {
-                        file: dummy3,
+                        file: tennisSlider3,
                     },
                 ],
                 doer: [
                     {
                         title: 'tennis SPORT TOURISM - DOER',
                         sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
-                        img: tennisDoer,
+                        img: tennisSlider3,
                         city: [
                             {
                                 place: 'Jakarta-Bogor',
                                 data: [
                                     {
-                                        img: cover,
-                                        title: 'Jakarta tennis 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Jakarta-Bogor tennis 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Jakarta tennis 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Bogor tennis 4 Days Trip',
+                                        img: coverTennisJKT,
+                                        title: 'Play Tennis in Gelora Bung Karno',
                                         type: 'Doer'
                                     },
                                 ]
                                 
                             }, 
                             {
-                                place: 'Surabaya',
+                                place: 'Dubai',
                                 data: [
                                     {
-                                        img: cover,
-                                        title: 'Surabaya tennis 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Surabaya tennis 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Surabaya tennis 4 Days Trip',
+                                        img: coverTennisDubai,
+                                        title: 'Dubai tennis 4 Days Trip',
                                         type: 'Doer'
                                     },
                                 ]
@@ -569,37 +607,17 @@ export default [
                                 place: 'Bali',
                                 data: [
                                     {
-                                        img: cover,
-                                        title: 'Bali tennis 4 Days Trip',
+                                        img: coverTennisBali,
+                                        title: 'Play Tennis in Bali 4 Days Trip',
                                         type: 'Doer'
                                     },
                                     {
-                                        img: cover,
-                                        title: 'Bali tennis 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Bali tennis 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Bali tennis 4 Days Trip',
+                                        img: coverTennisBali2,
+                                        title: 'Play Tennis in Bali 3 Days Trip',
                                         type: 'Doer'
                                     },
                                 ]
                             },
-                            {
-                                place: 'Bintan',
-                                data: [
-                                    {
-                                        img: cover,
-                                        title: 'Bintan tennis 4 Days Trip',
-                                        type: 'Doer'
-                                    },
-                                ]
-                            }
                         ],
 
                     }
@@ -608,45 +626,25 @@ export default [
                     {
                         title: 'tennis SPORT TOURISM - WATCHER',
                         sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
-                        img: tennisWatcher,
+                        img: coverTennisUS,
                         city: [
                             {
-                                place: 'Jakarta',
+                                place: 'Singapore',
                                 data: [
                                     {
-                                        img: cover,
-                                        title: 'Jakarta tennis International Tournament tennis 4 Days Trip',
-                                        type: 'Watcher'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Jakarta-Bogor Tournament tennis 4 Days Trip',
+                                        img: coverTennisSing,
+                                        title: 'Watch Singapore Tennis Tournament 4 Days Trip',
                                         type: 'Watcher'
                                     },
                                 ]
                                 
                             }, 
                             {
-                                place: 'Bali',
+                                place: 'United States',
                                 data: [
                                     {
-                                        img: cover,
-                                        title: 'Bali tennis Tourney 4 Days Trip',
-                                        type: 'Watcher'
-                                    },
-                                    {
-                                        img: cover,
-                                        title: 'Bali tennis Indonesia Pro League 4 Days Trip',
-                                        type: 'Watcher'
-                                    },
-                                ]
-                            },
-                            {
-                                place: 'Bintan',
-                                data: [
-                                    {
-                                        img: cover,
-                                        title: 'Bintan League tennis 4 Days Trip',
+                                        img: coverTennisUS,
+                                        title: 'Watch US Open 3 Days',
                                         type: 'Watcher'
                                     },
                                 ]

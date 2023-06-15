@@ -3,7 +3,7 @@ import "keen-slider/keen-slider.min.css"
 import "./keenCSS.css"
 import Image from "next/image";
 import Link from 'next/link';
-// import Data from '../data';
+import Data from '../data';
 
 export default () => {
   const [sliderRef] = useKeenSlider({
@@ -16,7 +16,7 @@ export default () => {
       spacing: 15,
     },
   })
-  // console.log(Data);
+  console.log(Data);
   return (
     <div ref={sliderRef} className="keen-slider mt-180">
       <div className="keen-slider__slide sport-slide1" style={{maxWidth: 250, minWidth: 250}}>
