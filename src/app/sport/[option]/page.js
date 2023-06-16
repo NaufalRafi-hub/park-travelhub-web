@@ -6,7 +6,7 @@ import Data from '../../Components/data';
 export default function Sport({ params, searchParams }) {
     // const data = 
     const {option} = params;
-    console.log(option);
+    // console.log(option);
     // console.log(findIndex(option))
     const arrSports = [
         {
@@ -30,7 +30,7 @@ export default function Sport({ params, searchParams }) {
         (item) => item.option === option
         
       )[0].key;
-      console.log(getID)
+      // console.log(getID)
     // const getID = Data.map((index,i) => ())
 
     return (

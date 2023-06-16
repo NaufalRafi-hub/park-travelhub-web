@@ -7,8 +7,29 @@ import Section4home from './Components/Section4Home/page'
 import Section5home from './Components/Section5Home/page'
 import Section6home from './Components/Section6Home/page'
 import SectionFAQ from './Components/SectionFAQ/page'
+import tennisSlide1 from '../../public/tennis-s1.webp'
+import tennisSlide2 from '../../public/golf-s1.webp'
+import tennisSlide3 from '../../public/cycling-s1.jpg'
+
+
 export default function Home() {
-  
+  const dataHome = [
+    {
+      title: "HI We Are Park",
+      sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
+      imageData: [
+        {
+            file: tennisSlide1,
+        },
+        {
+            file: tennisSlide2,
+        },
+        {
+            file: tennisSlide3,
+        },
+      ],
+    }
+  ]
   return (
     <main className="flex bg-white min-h-screen flex-col">
       {/* <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -116,7 +137,7 @@ export default function Home() {
           </p>
         </a>
       </div> */}
-      <Section1home />
+      <Section1home data={dataHome}/>
       <section className='p-24'>
         <Section2home />
         <Section3home />

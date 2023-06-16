@@ -5,7 +5,12 @@ import "./styles.css"
 import Image from 'next/image'
 
 
-export default () => {
+export default (props) => {
+  const {data} = props;
+  // console.log(data.imageData)
+  console.log (data[0].file.src)
+  
+
   const [sliderRef] = useKeenSlider(
     {
       loop: true,
@@ -46,7 +51,7 @@ export default () => {
     <>
       <div ref={sliderRef} className="keen-slider">
         <div className="keen-slider__slide number-slide1">
-          <Image src='/golf-s1.webp'
+          <Image src={data[0].file.src}
                     fill
                     width={0}
                     height={0}
@@ -57,7 +62,7 @@ export default () => {
                     />
         </div>
         <div className="keen-slider__slide number-slide2">
-          <Image src='/tennis-s1.webp'
+          <Image src={data[1].file.src}
                     fill
                     width={0}
                     height={0}
@@ -68,7 +73,7 @@ export default () => {
                     />
         </div>
         <div className="keen-slider__slide number-slide3">
-          <Image src='/yoga.jpg'
+          <Image src={data[2].file.src}
                     fill
                     width={0}
                     height={0}
