@@ -4,7 +4,9 @@ import './Sec1.css'
 import { motion } from "framer-motion"
 import SliderSec1 from "./slider/index"
 
-export default function Section1home() {
+export default function Section1home(props) {
+    const data = props;
+    console.log (data)
   
     return (
         <div className="mt-[147px] w-full h-[500px] relative overflow-y-hidden">
