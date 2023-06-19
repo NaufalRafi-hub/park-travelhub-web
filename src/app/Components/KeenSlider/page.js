@@ -16,7 +16,7 @@ export default () => {
       spacing: 15,
     },
   })
-  console.log(Data);
+  // console.log(Data);
   return (
     <div ref={sliderRef} className="keen-slider mt-180">
       <div className="keen-slider__slide sport-slide1" style={{maxWidth: 250, minWidth: 250}}>
