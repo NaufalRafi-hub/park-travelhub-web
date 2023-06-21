@@ -55,7 +55,7 @@ export default (props) => {
                     fill
                     width={0}
                     height={0}
-                    sizes='100vh'
+                    sizes='1000vh'
                     style={{
                         objectFit: "cover",
                     }}
@@ -66,7 +66,7 @@ export default (props) => {
                     fill
                     width={0}
                     height={0}
-                    sizes='100vh'
+                    sizes='1000vh'
                     style={{
                       objectFit: "cover",
                     }}
@@ -77,7 +77,7 @@ export default (props) => {
                     fill
                     width={0}
                     height={0}
-                    sizes='100vh'
+                    sizes='1000vh'
                     style={{
                       objectFit: "cover",
                     }}
@@ -88,7 +88,7 @@ export default (props) => {
                     fill
                     width={0}
                     height={0}
-                    sizes='100vh'
+                    sizes='1000vh'
                     style={{
                       objectFit: "cover",
                     }}

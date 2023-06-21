@@ -15,7 +15,7 @@ import tennisSlide3 from '../../public/cycling-s1.jpg'
 export default function Home() {
   const dataHome = [
     {
-      title: "HI We Are Park",
+      title: "HI SPORT ENTHUSIAST👋",
       sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
       imageData: [
         {

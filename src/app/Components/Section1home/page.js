@@ -9,17 +9,17 @@ export default function Section1home(props) {
     // console.log (data[0].imageData)
   
     return (
-        <div className="mt-[147px] w-full h-[500px] relative overflow-y-hidden">
+        <div className="mt-[87px] w-full h-[500px] relative overflow-y-hidden">
             <SliderSec1  data={data[0].imageData}/>
             
-            <div className=" absolute top-0 bg-sec1 flex p-24 h-[500px]">
+            <div className=" absolute top-0 w-full bg-sec1 flex p-5 h-[500px]">
                 <div className='top-4 left-6 z-1 overflow-y-hidden'>
                     <Image src='/park-s-header.png'
                     width={0}
                     height={0}
-                    sizes='100vh'
+                    sizes='1000vh'
                     style={{
-                        width: '400px',
+                        width: '500px',
                         // height: '571px'
                     }}
                     />
@@ -32,16 +32,16 @@ export default function Section1home(props) {
                     borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 }}  */}
                 <div
-                className='wrap-1-sec1 flex flex-col gap-14 relative'>
+                className='absolute wrap-1-sec1 flex flex-col gap-10 left-[150px] top-[100px]'>
                     <Image src='/park-s-logo.png'
                     width={0}
                     height={0}
                     sizes='100vh'
                     style={{width: '55px', height: '79px'}}
                     />
-                    <h1 className='font-bold text-white'>{data[0].title} </h1>
-                    <div className='bg-greenie p-4 font-bold text-center'>
-                        <a>
+                    <h1 className='w-[150px] font-bold text-white text-xl'>{data[0].title} </h1>
+                    <div className='bg-greenie p-4  text-center'>
+                        <a className='font-bold italic'>
                             TRAVEL WITH US
                         </a>
                     </div>
