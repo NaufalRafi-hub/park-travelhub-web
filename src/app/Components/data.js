@@ -61,7 +61,7 @@ export default [
         img: golfSport,
         data: [
             {
-                title : 'GOLF SPORT TOURISM',
+                title : 'GOLF SPORT TOURISM 🏌️',
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                 imageData: [
                     {
@@ -273,7 +273,7 @@ export default [
         img: bikingSport,
         data: [
             {
-                title : 'CYCLING SPORT TOURISM',
+                title : 'CYCLING SPORT TOURISM 🚴',
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                 imageData: [
                     {
@@ -366,7 +366,7 @@ export default [
         img: yogaSport,
         data: [
             {
-                title : 'Yoga SPORT TOURISM',
+                title : 'YOGA SPORT TOURISM 🧘',
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                 imageData: [
                     {
@@ -565,7 +565,7 @@ export default [
         img: tennisSport,
         data: [
             {
-                title : 'tennis SPORT TOURISM',
+                title : 'TENNIS SPORT TOURISM 🎾',
                 sub : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                 imageData: [
                     {
