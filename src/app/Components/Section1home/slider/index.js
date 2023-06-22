@@ -5,7 +5,7 @@ import "./styles.css"
 import Image from 'next/image'
 
 
-export default (props) => {
+export default function Slider (props) {
   const {data} = props;
   // console.log(data.imageData)
   console.log (data[0].file.src)

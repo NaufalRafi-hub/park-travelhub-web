@@ -4,7 +4,7 @@ import "keen-slider/keen-slider.min.css"
 import "./syles.css"
 import Image from 'next/image'
 
-export default () => {
+export default function Slider () {
   const [sliderRef] = useKeenSlider({
     loop: true,
     mode: "free-snap",

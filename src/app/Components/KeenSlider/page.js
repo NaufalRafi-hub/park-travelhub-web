@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import Data from '../data';
 
-export default () => {
+export default function KeenSlider () {
   const [sliderRef] = useKeenSlider({
     // loop: true,
     autoplay: true,
