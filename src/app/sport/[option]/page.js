@@ -14,15 +14,15 @@ export default function Sport({ params, searchParams }) {
           key: 0,
         },
         {
-          option: 'yoga',
+          option: 'cycling',
           key: 1,
         },
         {
-          option: 'tennis',
+          option: 'yoga',
           key: 2,
         },
         {
-          option: 'cycling',
+          option: 'tennis',
           key: 3,
         },
       ];

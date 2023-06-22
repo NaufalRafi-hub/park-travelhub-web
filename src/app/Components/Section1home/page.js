@@ -10,7 +10,7 @@ export default function Section1home(props) {
   
     return (
         <div className="mt-[87px] w-full h-[500px] relative overflow-y-hidden">
-            <SliderSec1  data={data[0].imageData}/>
+            <SliderSec1  data={data[0]?.imageData}/>
             
             <div className=" absolute top-0 w-full bg-sec1 flex p-5 h-[500px]">
                 <div className='top-4 left-6 z-1 overflow-y-hidden'>

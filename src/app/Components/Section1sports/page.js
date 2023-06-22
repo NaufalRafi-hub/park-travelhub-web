@@ -7,7 +7,8 @@ export default function Section1sports(props) {
   const searchPar = useParams();
 //   console.log(searchPar.option);
   const doerImg =  data[0].doer[0].img.src
-  const watcherImg = data[0].watcher[0].img.src
+//   console.log(data[0].watcher === true)
+//   const watcherImg = data[0].watcher[0].img.src
     return (
         <div>
             <div className='bg-grayie p-24'>
@@ -32,23 +33,26 @@ export default function Section1sports(props) {
                                 </div>
                             </div>
                         </Link>
-                
-                        <div className='watcher w-full h-[400px] relative' style={ 
-                            data[0].watcher === 0 ? {display: 'none'} : {
-                                display: 'block',
-                                backgroundImage : `url(${watcherImg})`,
-                                backgroundPosition: 'center',
-                                backgroundSize: 'cover',
-                                backgroundRepeat: 'no-repeat'
-                            } 
-                            }>
-                            <Link href={`sport/${encodeURIComponent(searchPar.option)}/watcher/${encodeURIComponent(data[0].watcher[0].title)}`}>
-                                <div className='linear-sport w-full absolute h-[400px] top-0 -z-1 p-20'>
-                                        <h1 className='color-greenie font-bold italic mt-20'>WATCHER</h1>
-                                        <h3 className="mt-12 text-left text-white w-[400px]">{data[0].watcher[0].sub}</h3>
-                                </div>
-                            </Link>
-                        </div>
+                        {data[0].watcher.length &&
+                            <div className='watcher w-full h-[400px] relative' style={ 
+                                {
+                                    display: 'block',
+                                    backgroundImage: `url(${data[0].watcher[0].img.src})`,
+                                    backgroundPosition: 'center',
+                                    backgroundSize: 'cover',
+                                    backgroundRepeat: 'no-repeat'
+                                }
+                                
+                                }>
+                                <Link href={`sport/${encodeURIComponent(searchPar.option)}/watcher/${encodeURIComponent(data[0].watcher[0].title)}`}>
+                                    <div className='linear-sport w-full absolute h-[400px] top-0 -z-1 p-20'>
+                                            <h1 className='color-greenie font-bold italic mt-20'>WATCHER</h1>
+                                            <h3 className="mt-12 text-left text-white w-[400px]">{data[0].watcher[0].sub}</h3>
+                                    </div>
+                                </Link>
+                            </div> 
+                        }
+                        
                     </div>
                     
                     
