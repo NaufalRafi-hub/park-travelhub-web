@@ -357,6 +357,7 @@ export default [
 
                     }
                 ],
+                watcher : [],
             }
         ]
     },
@@ -555,6 +556,7 @@ export default [
 
                     }
                 ],
+                watcher :[],
             }
         ]
     },
