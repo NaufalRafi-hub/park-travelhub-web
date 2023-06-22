@@ -137,7 +137,7 @@ export default function Home() {
           </p>
         </a>
       </div> */}
-      {/* <Section1home data={dataHome}/> */}
+      <Section1home data={dataHome}/>
       <section className='p-24'>
         <Section2home />
         <Section3home />
