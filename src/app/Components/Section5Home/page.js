@@ -9,7 +9,7 @@ export default function Section5home() {
                 OUR HIGHLIGHTED SPORT TOURISM
             </h1>
             <div className='mt-180'>
-                <SliderSec5 />
+                {/* <SliderSec5 /> */}
 
             </div>
             

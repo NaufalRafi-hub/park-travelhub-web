@@ -9,7 +9,7 @@ export default function Section4home() {
                 OUR SELECTION OF SPORTS
             </h1>
             <section>
-                <KeenSlider />
+                {/* <KeenSlider /> */}
             </section>
         </div>
     )

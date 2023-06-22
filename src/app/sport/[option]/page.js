@@ -35,7 +35,7 @@ export default function Sport({ params, searchParams }) {
 
     return (
         <div>
-            <Section1home data={Data[getID].data} />
+            {/* <Section1home data={Data[getID].data} /> */}
             <Section1sports data={Data[getID].data}/>
             <Section2sports data={Data[getID].data}/>
         </div>
