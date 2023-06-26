@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 export default function Section1sports(props) {
   const {data} = props
   const searchPar = useParams();
-//   console.log(searchPar.option);
+  console.log(data[0].doer[0].city);
   const doerImg =  data[0].doer[0].img.src
 //   console.log(data[0].watcher === true)
 //   const watcherImg = data[0].watcher[0].img.src
@@ -17,7 +17,10 @@ export default function Section1sports(props) {
                         WHICH KIND OF GOLF ACTIVITY DO YOU WANT?
                     </h1>
                     <div className='flex flex-col gap-10 p-10 justify-center align-center' >
-                        <Link href={`sport/${encodeURIComponent(searchPar.option)}/doer/${encodeURIComponent(data[0].doer[0].title)}`}>
+                        {/* <Link href={`sport/${encodeURIComponent(searchPar.option)}/doer/${encodeURIComponent(data[0].doer[0].title)}`}> */}
+                        <Link href={
+                           `sport/${encodeURIComponent(searchPar.option)}/doer`
+                            }>
                             <div className='doer w-full h-[400px] relative' style={
                                 {
                                 display: 'block',
