@@ -4,8 +4,9 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 export default function Section1sports(props) {
   const {data} = props
+//   console.log(data);
   const searchPar = useParams();
-  console.log(data[0].doer[0].city);
+//   console.log(searchPar);
   const doerImg =  data[0].doer[0].img.src
 //   console.log(data[0].watcher === true)
 //   const watcherImg = data[0].watcher[0].img.src

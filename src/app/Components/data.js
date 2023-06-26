@@ -79,6 +79,7 @@ export default [
                         title: 'GOLF SPORT TOURISM - DOER',
                         sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                         img: golfDoer,
+                        bgText: 'GOLF SPORT TOURISM',
                         city: [
                             {
                                 place: 'Jakarta-Bogor',
@@ -220,6 +221,7 @@ export default [
                         title: 'GOLF SPORT TOURISM - WATCHER',
                         sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                         img: golfWatcher,
+                        bgText: 'GOLF SPORT TOURISM',
                         city: [
                             {
                                 place: 'Jakarta - Bogor',
@@ -288,9 +290,10 @@ export default [
                 ],
                 doer: [
                     {
-                        title: 'Cycling SPORT TOURISM - DOER',
+                        title: 'CYCLING SPORT TOURISM - DOER',
                         sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                         img: cyclingSlider2,
+                        bgText: 'CYCLING SPORT TOURISM',
                         city: [
                             {
                                 place: 'Jakarta-Bogor',
@@ -381,9 +384,10 @@ export default [
                 ],
                 doer: [
                     {
-                        title: 'Yoga SPORT TOURISM - DOER',
+                        title: 'YOGA SPORT TOURISM - DOER',
                         sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                         img: yogaSlider,
+                        bgText: 'CYCLING SPORT TOURISM',
                         city: [
                             {
                                 place: 'Jakarta-Bogor',
@@ -580,9 +584,10 @@ export default [
                 ],
                 doer: [
                     {
-                        title: 'tennis SPORT TOURISM - DOER',
+                        title: 'TENNIS SPORT TOURISM - DOER',
                         sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                         img: tennisSlider3,
+                        bgText: 'TENNIS SPORT TOURISM',
                         city: [
                             {
                                 place: 'Jakarta-Bogor',
@@ -626,9 +631,10 @@ export default [
                 ],
                 watcher: [
                     {
-                        title: 'tennis SPORT TOURISM - WATCHER',
+                        title: 'TENNIS SPORT TOURISM - WATCHER',
                         sub: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eros non',
                         img: coverTennisUS,
+                        bgText: 'TENNIS SPORT TOURISM',
                         city: [
                             {
                                 place: 'Singapore',
